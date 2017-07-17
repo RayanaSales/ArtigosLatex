@@ -1,3 +1,34 @@
 \begin{thebibliography}{}
 
+\bibitem[Bevilaqua 2016]{bevilaqua2016analise}
+Bevilaqua, V.~A. (2016).
+\newblock An{\'a}lise dos frameworks eclipse kura, the thing box e webiopi no
+  desenvolvimento de aplica{\c{c}}{\~o}es da internet das coisas (iot).
+
+\bibitem[Campos 2006]{campos2006linux}
+Campos, A. (2006).
+\newblock O que {\'e} linux.
+\newblock {\em BR-Linux. Florian{\'o}polis, mar{\c{c}}o de 2006}.
+
+\bibitem[Kura 2017a]{CloudConfiguration}
+Kura, E. (2017a).
+\newblock Cloud configuration.
+
+\bibitem[Kura 2017b]{KuraDocumentation}
+Kura, E. (2017b).
+\newblock Kura documentation - overview.
+
+\bibitem[Mayworm 2015]{OsgiVantagens}
+Mayworm, M. (2015).
+\newblock Osgi distribuída: Uma visão geral.
+\newblock {\em MundoJ}.
+
+\bibitem[Significados 2015]{IoTSignificado}
+Significados (2015).
+\newblock Significado de internet das coisas.
+
+\bibitem[Souza 2016]{IntroducaoOsgi}
+Souza, D. (2016).
+\newblock Introdução ao osgi.
+
 \end{thebibliography}

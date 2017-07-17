@@ -1,1 +1,28 @@
+\subsection{E-speak e Fswebcam}
+Como parte da nossa avaliação, foram escritos dois plug-ins para testar o nosso entendimento sobre a criação de plug-ins usando o kura, e se a ferramenta se comportava como esperado desenvolvendo outras aplicações, que não foram previstas nos tutoriais oficiais. Tais plug-ins desenvolvidos encapsulam as principais funcionalidades dos programas espeak e fswebcam, tais como sintetizar voz e tirar fotos, em um plug-in do kura, que pode ser reusado por outras aplicações.
+
+Para realizar a síntese de voz, o plug-in recebe como parâmetro, o texto e o idioma no qual o texto deve ser reproduzido.
+Para tirar foto, o plug-in recebe como parâmetro o nome do arquivo, e a quantidade de quadros que o programa deve esperar, antes de salvar a foto. Desta forma as funcionalidades dos programas são disponibilizadas como serviços do kura, e os serviços podem ser consumidos por outros plug ins.
+
 \subsection{Avaliação dos artefatos gerados}
+
+Para a realização dos testes, foi escolhido um menstrando em ciência da computação, do centro de informatica de pernambuco, que não possuia experiência com o desenvolvimento OSGI, e IoT. O aluno executou as três fases dos testes, descritas seção ~\ref{sec:metodologia} deste artigo.
+
+Ao realizar os testes da Fase 1, onde foram analisadas a documentação gerada neste projeto, foi constatado que o aluno levou aproximadamente 40 minutos ao executar cada tutorial solicitado. O aluno registrou que conseguiu executar os tutoriais com sucesso e que os resultado observados após a execução dos tutoriais, foram os mesmos previstos. Porém o aluno documentou que nem todos os fluxos alternativos foram cobertos pelos tutoriais. Ao criar o primeiro plug-in o aluno constatou que ao importar os projetos do Kura em seu workspace pessoal, os erros não sumiram após configurar a versão do java para 1.5, como previsto no fluxo alternativo do tutorial. Foi preciso limpar e construir (clean and rebuild) o projeto.
+
+Ao realizar os testes da Fase 2, onde foram analisadas os artefatos gerados neste projeto, foi constatado que o aluno conseguiu instalar, executar e gerar pacotes OSGI dos plug-ins desenvolvidos, para exportação. O aluno instalou os pacotes exportados em uma máquina virtual com o Kura, e conseguiu consumir com sucesso os serviços disponibilizados pelos plug-ins. Porém os testes não foram realizados também em uma raspberry, como esperado, devido a indisponibilidade do mesmo.
+
+Ao realizar os testes da Fase 3, onde foi analisado o desempenho do aluno ao executar tutoriais não abordados neste projeto, foi constatado que o aluno conseguiu executar com sucesso o tutorial escolhido por ele: "Configuração da nuvem" \cite{CloudConfiguration}. Porém o aluno registrou que não há a certeza de que a configuração foi executada corretamente, pois o tutorial não aborda como testar o uso da nuvem, usando o Kura.
+
+\subsection{Outros resultados}
+
+Além dos resultados previamente descritos, outros resultados foram alcançados no decorrer deste projeto, são eles:
+
+\begin{enumerate}
+  \item Aprendizagem da tecnologia OSGI com o kura.
+  \item Desenvolvimento de plug-ins como prova de conceito.
+  \subitem Plug-ins baseados nos tutoriais oficiais.
+  \subitem Fswebcam, Espeak.
+  \item Revisão e criação de novos tutoriais comentados.
+  \item Definição e formatação de testes para avaliação do ambiente.
+\end{enumerate} 
