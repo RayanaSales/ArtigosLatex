@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.6.30)  17 JUL 2017 00:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.6.30)  19 JUL 2017 20:37
 entering extended mode
 **./sbc-template.tex
 (sbc-template.tex
@@ -612,32 +612,44 @@ File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 33.
- (abstract.tex) (resumo.tex [1
-
-{C:/Users/Rayana/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}])
+ (abstract.tex) (resumo.tex)
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <13> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 42.
- (introducao.tex) [2] (revisaoLiteratura.tex)
-(metodologia.tex [3]) [4] (resultados.tex [5]) (conclusoes.tex [6])
-(sbc-template.bbl) [7] (sbc-template.aux) ) 
+ (introducao.tex [1
+
+{C:/Users/Rayana/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]) (revisaoL
+iteratura.tex [2])
+(metodologia.tex [3]) (resultados.tex [4] [5]) (conclusoes.tex [6])
+(sbc-template.bbl
+Underfull \hbox (badness 5260) in paragraph at lines 21--26
+[]\OT1/ptm/m/n/12 Foundation, T. E. (2017).  Cloud con-fi-gu-ra-tion.  On-line.
+ D[]spon[]vel em:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--44
+[]\OT1/ptm/m/n/12 Souza, D. (2016).  Introdu[][]ao ao osgi.  On-line. D[]spon[
+]vel em:
+ []
+
+) [7] (sbc-template.aux) ) 
 Here is how much of TeX's memory you used:
- 3423 strings out of 493318
- 47846 string characters out of 3129513
- 125382 words of memory out of 3000000
- 6878 multiletter control sequences out of 15000+200000
+ 3422 strings out of 493318
+ 47838 string characters out of 3129513
+ 127392 words of memory out of 3000000
+ 6877 multiletter control sequences out of 15000+200000
  18188 words of font info for 40 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  39i,8n,28p,931b,312s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/Rayana/AppData/Local/Progr
-ams/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Users/Rayana/AppData/Local/Progr
-ams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Rayana/AppData
-/Local/Programs/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/Rayana/
-AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Ra
-yana/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Us
-ers/Rayana/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><
-C:/Users/Rayana/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmri8a
-.pfb>
-Output written on sbc-template.pdf (7 pages, 100474 bytes).
+{C:/Users/Rayana/AppData/Local/Programs/MiKTeX 2.9/fo
+nts/enc/dvips/base/8r.enc}<C:/Users/Rayana/AppData/Local/Programs/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Rayana/AppData/Local/Programs/M
+iKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/Rayana/AppData/Local/Pro
+grams/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Rayana/AppData/Loca
+l/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/Rayana/AppDat
+a/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Rayana/A
+ppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on sbc-template.pdf (7 pages, 98197 bytes).
 PDF statistics:
  51 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

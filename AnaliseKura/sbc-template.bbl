@@ -4,31 +4,42 @@
 Bevilaqua, V.~A. (2016).
 \newblock An{\'a}lise dos frameworks eclipse kura, the thing box e webiopi no
   desenvolvimento de aplica{\c{c}}{\~o}es da internet das coisas (iot).
+\newblock UFRN.
 
-\bibitem[Campos 2006]{campos2006linux}
-Campos, A. (2006).
+\bibitem[Campos 2016]{campos2006linux}
+Campos, A. (2016).
 \newblock O que {\'e} linux.
-\newblock {\em BR-Linux. Florian{\'o}polis, mar{\c{c}}o de 2006}.
+\newblock BR-Linux. Jornal florian{\'o}polis.
 
-\bibitem[Kura 2017a]{CloudConfiguration}
-Kura, E. (2017a).
-\newblock Cloud configuration.
-
-\bibitem[Kura 2017b]{KuraDocumentation}
-Kura, E. (2017b).
+\bibitem[Foundation 2015]{KuraDocumentation}
+Foundation, T.~E. (2015).
 \newblock Kura documentation - overview.
+\newblock Online. Dísponível em: http://eclipse.github.io/kura/. Acesso em
+  19-Julho-2017.
+
+\bibitem[Foundation 2017]{CloudConfiguration}
+Foundation, T.~E. (2017).
+\newblock Cloud configuration.
+\newblock Online. Dísponível em:
+  http://eclipse.github.io/kura/dev/cloud-configuration.html. Acesso em
+  19-Julho-2017.
 
 \bibitem[Mayworm 2015]{OsgiVantagens}
 Mayworm, M. (2015).
 \newblock Osgi distribuída: Uma visão geral.
-\newblock {\em MundoJ}.
+\newblock Jornal MundoJ.
 
 \bibitem[Significados 2015]{IoTSignificado}
 Significados (2015).
 \newblock Significado de internet das coisas.
+\newblock Online. Dísponível em:
+  https://www.significados.com.br/internet-das-coisas/. Acesso em
+  19-Julho-2017.
 
 \bibitem[Souza 2016]{IntroducaoOsgi}
 Souza, D. (2016).
 \newblock Introdução ao osgi.
+\newblock Online. Dísponível em:
+  http://www.devmedia.com.br/introducao-ao-osgi/30035. Acesso em 19-Julho-2017.
 
 \end{thebibliography}

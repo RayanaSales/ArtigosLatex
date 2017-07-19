@@ -4,11 +4,19 @@ Apesar de ainda ser uma área pouco explorada na computação, a IoT já está p
 
 Para a criação de aplicações para IoT, foram desenvolvidas várias ferramentas, uma delas é o Kura, feita pelo time responsável pelo desenvolvimento da IDE Eclipse. O Kura se trata de um servidor de aplicações baseados na tecnologia OSGI, que permite a criação e gerenciamento do ciclo de vida de plug-ins. O kura oferece também um ambiente de testes integrado ao ambiente de desenvolvimento e um shell similar ao shell do linux, onde é possível enviar comandos aos plug-ins.
 
-% TRABALHOS RELACIONADOS
-Para a realização deste projeto, foi analisado o trabalho de \cite{bevilaqua2016analise}, onde foi realizado uma análise através de testes sobre três frameworks com foco no desenvolvimento em IoT: Eclipe Kura, The Thing box e Webiopi, afim de identificar uma alternativa que facilite e agilize o desenvolvimento para dispositivos inteligentes. Porém ao fim do trabalho, Bevilaqua concluiu que o projeto The Thing Box demonstrou o melhor resultado entre os três frameworks, além de apresentar uma proposta de desenvolvimento mais amigável para novos desenvolvedores. Bevilaqua também concluiu em seu trabalho, que o Kura é complexo e que foi projetado para desenvolvedores Java experientes com técnicas e termos avançados. Devido ao alto nível de complexidade, o autor não se aprofundou o quanto gostaríamos na ferramenta, focando mais na The Thing box.
+% problema e objtivo geral
 
-Além do trabalho de Bevilaqua, não foram encontrados trabalhos relacionados ao Kura. Devido a falta de material disponível para pesquisa, e aos problemas encontrados durante aos testes realizados com o Kura, resolvemos criar e disponibilizar na Internet, novos tutoriais baseados nos tutoriais oficiais do Kura, onde descrevemos possíveis soluções para problemas que são comumente encontrados. Ao final de cada tutorial, realizamos também uma avaliação, onde descrevemos o que aprendemos e nossas impressões.
+Apesar de se tratar de uma ferramenta bastante poderosa, o Kura ainda se encontra em desenvolvimento. Sua documentação assume que o leitor possui um vasto conhecimento sobre desenvolvimento de plug-ins, e omite passos dos tutoriais tornando o aprendizado complexo e exaustivo. Baseando-se em tal empecilho, o nosso objetivo geral é tornar o uso da ferramenta mais fácil, disponibilizando novos tutoriais, provas de conceitos e avaliações, que visam exemplificar o uso do Kura, e compartilhar um pouco da nossa experiência e do que aprendemos.
 
-% resultados principais.
+% objetivos gerais e especificos
 
-Após submeter os nossos tutoriais a testes, com um avaliador externo que possuia pouco conhecimento sobre IoT, e nenhum sobre o Kura, provamos que o nosso material fornece uma base bem estruturada de passos, que guiam o programador inexperiente a conclusão dos tutoriais com sucesso.
+Além do objetivo descrito acima, também temos como objetivo:
+
+\begin{enumerate}
+\item Definir uma plataforma de execução para os testes e para avaliação do sistema, visto que uma parte dos testes serão efetuados no emulador do Kura e a outra na raspberry pi.
+\item Ler a documentação do kura, instalar o ambiente de desenvolvimento e executar uma prova de conceito para provar que o ambiente de desenvolvimento e de execução funcionam bem.
+\item Definir uma estratégia de avaliação para a plataforma Kura.
+\item Implementar uma coleção de plugins que exercitem os serviços do ambiente Kura, para avaliar sua adequação no suporte a aplicações de IoT.
+\item Avaliar a plataforma de acordo com os critérios pré-definidos, ou adicionados durante o processo.
+\end{enumerate}
+
